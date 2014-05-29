@@ -1,6 +1,6 @@
 class TagsController < ApplicationController
  before_action :find_tag, only: [:show, :edit, :update, :destroy]
- validates :name , presence: true
+ 
  
   def index
     @tags = Tag.search(params[:search]).paginate(:per_page => 20, :page => params[:page])

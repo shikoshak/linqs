@@ -34,7 +34,7 @@
 
   body { 
   padding-top: 70px;  
-  background: #EEE8D5; 
+  background: url(http://www.medicinaysociedad.org.ar/files/editor/links.jpg); 
   font-size: $body-font-size;
 
 }
@@ -61,6 +61,7 @@
 	margin-right: 7px;
 	border-radius: 10px 10px;
 	background-color: #EEE8D5;
+
 
 }
 .form-control {
